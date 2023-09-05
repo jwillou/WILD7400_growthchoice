@@ -5,4 +5,4 @@ setwd(paste(directory,"/source/", sep = ''))    # set temp working directory
 #library()
 
 #source functions - example: source(paste(getwd(), "/AgeUp.R", sep = ''))
-
+source(paste(getwd(), "/Replicates.R", sep = ''))
