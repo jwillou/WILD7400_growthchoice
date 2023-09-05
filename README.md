@@ -33,12 +33,12 @@ Searching Behavior: Herbivores will exhibit searching behavior based on their si
 
 2. Input Data: Data from ecological studies or literature to be used to parameterize the model, including values for growth rates, reproductive rates, and food quality thresholds. (We may make guesses at this in the interest of time.)
 
-3. Submodels: The model will include submodels for herbivore growth, reproduction, and food resource dynamics.
+3. Submodels: The model will include submodels for herbivore growth and food resource dynamics.
 
-4. Parameters: Model parameters include growth rates, reproductive rates, food quality thresholds, and the size-based probability of searching for high-quality food.
+4. Parameters: Model parameters include growth rates food quality thresholds, and the size-based probability of searching for high-quality food.
 
 5. Observations: The model's output includes observations of population size, individual size distributions, and food resource availability over time.
 
-6. Initialization and Termination: The simulation begins at time step one and continues for 100 generations (years).
+6. Initialization and Termination: The simulation begins at time step one and continues for 100 steps.
 
 7. Stochasticity: Stochastic elements (i.e. noise around a defined mean or optimum) may be included in the model to represent randomness in food resource availability and herbivore searching behavior.
