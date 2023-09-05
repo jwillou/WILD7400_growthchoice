@@ -16,13 +16,32 @@ highsuccess = .1          #how likely an individual is in finding high quality f
 #remove()
 
 #run model iterating over parameters in Replicates
-for(r in 1:nrow(runvars)){
+#for(r in 1:nrow(runvars)){
+  #initialize population of herbivores
+  herbs = data.frame(id = seq(1,K,1), size = rep(seq(1,maxsize,1),(K/maxsize)))
+  herbs$search = herbs$size + rnorm(K,0,1)
+
+  #iterate over individuals in herbs
+  for(i in 1:nrow(herbs)){
+    #search for food (relationship between time searching and finding food)
+    
+    
+    #success or not in search
+    
+    
+    #assess food quality, record food quantity 
+    
+    
+    
+    ###TBD: how many iterations should individuals forage, and how will we code that
+    ###TBD: how will we introduce food quality to this and how will it be set
+    ###TBD: how will we record the food quality the individual finds each year/unit of time
+    
+  }
   
   
   
   
-  
-  
-}
+#}
 
 #end
