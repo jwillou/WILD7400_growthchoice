@@ -7,13 +7,12 @@ The main objective of this agent-based model is to explore and understand the dy
 
 2. Entities, State Variables, and Scales:
 Entities: The model simulates individual herbivores as agents within the ecosystem, where the ecosystem contains various food sources.
-State Variables: Each individual herbivore has two attributes: size (related to their willingness to search for high-quality food) and reproductive status. Each food source has a specified quality (related to the accessibility of the resource and how nutritionally useful it is).
-Scales: The model operates on both spatial and temporal scales. Spatially, it represents an area where herbivores interact with their environment, and temporally, it simulates the passage of time as herbivores search for and consume food. (Note that we do not specifically track the spatial component.)
+State Variables: Each individual herbivore has one attribute: size, which is related to their willingness to search for high-quality food. Each food source has a specified quality (related to the accessibility of the resource and how nutritionally useful it is).
+Scales: The model operates on both spatial and temporal scales. Spatially, it represents an area where herbivores interact with their environment, and temporally, it simulates the passage of time as herbivores search for and consume food. (Note that we do not specifically track the spatial component and we will not consider reproduction explicitly to keep this model simple.)
 
 3. Process Overview and Scheduling:
 Growth: Herbivores may grow over time, affecting their size and willingness to search for high-quality food.
-Herbivore Species Reproduction: The model will include mechanisms for herbivores to reproduce, potentially influenced by factors like food availability and individual size.
-Food Resource Replication: Food resources of varying qualities will be present within the environment.
+Food Resource Replication: Food resources of varying qualities will always be present within the environment.
 Searching Behavior: Herbivores will exhibit searching behavior based on their size and the quality of available food resources. Larger individuals are more likely to search for high-quality food, while smaller individuals may accept lower quality food.
 
 
