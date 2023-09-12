@@ -1,7 +1,7 @@
-Replicates = function() {  
+Replicates = function(lowsuccess.V, highsuccess.V) {  
   
-  #replicates = expand.grid()
-  #colnames(replicates) = c()
+  replicates = expand.grid(lowsuccess.V, highsuccess.V)
+  colnames(replicates) = c("lowsuccess", "highsuccess")
  
-  #return(replicates)
+  return(replicates)
 }  
