@@ -7,7 +7,7 @@ The main objective of this agent-based model is to explore and understand the dy
 
 2. Entities, State Variables, and Scales:
 Entities: The model simulates individual herbivores as agents within the ecosystem, where the ecosystem contains various food sources.
-State Variables: Each individual herbivore has one attribute: size, which is related to their willingness to search for high-quality food. Each food source has a specified quality (related to the accessibility of the resource and how nutritionally useful it is).
+State Variables: Each individual herbivore has one attribute: size, which is related to their willingness to search for high-quality food. Each food source has a specified quality (related to the accessibility of the resource-probability of finding it- and how nutritionally useful it is). 
 Scales: The model operates on both spatial and temporal scales. Spatially, it represents an area where herbivores interact with their environment, and temporally, it simulates the passage of time as herbivores search for and consume food. (Note that we do not specifically track the spatial component and we will not consider reproduction explicitly to keep this model simple.)
 
 3. Process Overview and Scheduling:
